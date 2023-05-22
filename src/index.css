@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #eee;
+}
+
+:root {
+  --iconsColor: rgb(159, 127, 177);
+  --hoverLinks: rgb(225, 179, 219);
+}
+
+.containe {
+  display: flex;
+  overflow: hidden;
+}
+
+.butonMenu {
+  margin-bottom: 160px;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+}
+
+.sidebar {
+  background-color: #070606ef;
+  color: #fff;
+  height: 100vh;
+  width: 300px;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.fotoImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.descripLogo {
+  font-size: 15px;
+}
+
+.bars {
+  width: 200px;
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+  transition: all 0.5s;
+}
+
+.contLinks {
+  margin-top: -10px;
+}
+
+.link {
+  display: flex;
+  color: var(--iconsColor);
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+
+.link:hover {
+  background: var(--hoverLinks);
+  color: rgb(123, 93, 140);
+  transition: all 0.5s;
+}
+
+.active {
+  color: #fff;
+}
+
+.icon,
+.llink_text {
+  font-size: 20px;
+}
+
+footer{
+  background-color: rgb(18, 18, 18);
+  margin-top: 150px;
+  height: 50px;
+  gap: 5px;
+}
+.footrConteIcons {
+  margin-top: 10px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgb(80, 80, 80);
+  border-radius: 50%;
+  background-color: rgb(14, 13, 13);
+}
+.footrConteIcons:hover{
+  border: 3px solid var(--hoverLinks);
+  box-shadow: rgba(45, 45, 45, 0.3) 0px 19px 38px, rgba(66, 66, 66, 0.22) 0px 15px 12px;}
+a{
+  color: #fff;
+}
+a:hover{
+  color: var(--hoverLinks);
+}
+
+.main{
+  overflow: auto;
+}
+
+
+@media (min-width: 768px) {
+  .contLinks {
+    margin-top: 10px;
+  }
+
+  .butonMenu {
+    display: none;
+  }
+
+  .logo {
+    display: block !important;
+  }
+
+  .fotoImg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 15px;
+  }
+
+  .descripLogo {
+    margin-left: 20px;
+  }
+
+  .sidebar {
+    background-color: #070606ef;
+    color: #fff;
+    height: 100vh;
+    width: 250px !important;
+  }
+
+  .link_text {
+    display: block !important;
+    margin-left: 20px;
+  }
+
+  footer{
+    margin-top: 190px;
+    height: 90px;
+  }
+  .footrConteIcons {
+    display: block !important;
+  }
+}
