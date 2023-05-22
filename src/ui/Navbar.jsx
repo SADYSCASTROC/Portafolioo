@@ -64,13 +64,13 @@ export const Navbar = ({ children }) => {
                         ))
                     }
                 </div>
-                <footer className='d-flex justify-content-center' style={{ display: isOpen ? 'block' : 'none' }}>
+                <footer className='d-flex justify-content-center align-items-end ' style={{ display: isOpen ? 'block' : 'none' }}>
                     <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons' > <a href="https://www.linkedin.com/in/sadys-castro/" target="_blank"><LinkedInIcon /></a> </div>
                     <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="https://github.com/SADYSCASTROC" target="_blank"><GitHubIcon /></a></div>
                     <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="mailto:sadyscastro@gmail.com" target="_blank"><EmailIcon /></a></div>
                 </footer>
             </div>
-            <main className='main'>{children}</main>
+            <main style={{ display: isOpen ? 'none' : 'block' }} className='main'>{children}</main>
         </div>
     )
 }
