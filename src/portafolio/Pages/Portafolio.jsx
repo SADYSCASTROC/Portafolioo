@@ -1,7 +1,30 @@
-import React from 'react'
+import { proyectos } from "../../data"
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import { Modal } from "../components/Modal";
+import { Link } from "react-router-dom";
 
 export const Portafolio = () => {
   return (
-    <div>Portafolio</div>
+    <section className='containerPortafolio  animate__animated animate__fadeInLeft'>
+      <h2>Portafolio</h2>
+      <hr />
+
+      <div className="containerCardProyects">
+        {
+          proyectos.map(item =>(
+            <div className="card" style={{width: '18rem', marginTop:'25px'}}>
+            <div className="card-body">
+              <h5 className="card-title">{item.name}</h5>
+              <p className="card-text">{item.descri}</p>
+              <p className="card-text">{item.tecnologias}</p>
+              <Link to={`/demoProyectos/${item.name}`} className="btn btn-primary">Demo <VisibilityIcon/> </Link> 
+            </div>
+          </div>
+          ))
+        }
+{/* <Modal/> */}
+      </div>
+
+    </section>
   )
 }

@@ -70,7 +70,7 @@ export const Navbar = ({ children }) => {
                     <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="mailto:sadyscastro@gmail.com" target="_blank"><EmailIcon /></a></div>
                 </footer>
             </div>
-            <main style={{ display: isOpen ? 'none' : 'block' }} className='main'>{children}</main>
+            <main  className='main'>{children}</main>
         </div>
     )
 }
