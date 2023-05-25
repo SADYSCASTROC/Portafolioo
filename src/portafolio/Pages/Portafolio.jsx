@@ -16,7 +16,7 @@ export const Portafolio = () => {
               <h5 className="card-title">{item.name}</h5>
               <p className="card-text">{item.descri}</p>
               <p className="card-text">{item.tecnologias}</p>
-              <Link to={`/demoProyectos/${item.name}`} className="btn btn-primary">Demo <VisibilityIcon/> </Link> 
+              <Link to={`/demoProyectos/${item.name}`} className="btn ">Demo <VisibilityIcon/> </Link> 
             </div>
           </div>
           ))

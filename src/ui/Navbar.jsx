@@ -42,8 +42,8 @@ export const Navbar = ({ children }) => {
 
     ]
     return (
-        <div className='containe'>
-            <div style={{ width: isOpen ? '250px' : '50px' }} className='sidebar'>
+        <div className='containe contNav'>
+            <div style={{ width: isOpen ? '100%' : '2px'  }} className='sidebar'>
                 <div className="top_section">
                     <Link to='/' onClick={toggle} style={{ display: isOpen ? 'block' : 'none' }} className='logo nav-link'>
                         <img src={fotoImg} alt="" className='fotoImg' />
@@ -51,14 +51,16 @@ export const Navbar = ({ children }) => {
                     </Link>
 
                     <div style={{ marginLeft: isOpen ? '50px' : '0px' }} className="bars">
+                        <div className='contButon'>
                         <FaBars onClick={toggle} className='butonMenu' />
+                        </div>
                     </div>
                 </div>
                 <div className='contLinks'>
                     {
                         menuItem.map((item, index) => (
-                            <NavLink to={item.path} key={index} className='link nav-link' activeclassName="active">
-                                <div className="icon">{item.icon}</div>
+                            <NavLink to={item.path} key={index} className='link nav-link' activeclassName="active ">
+                                <div className="icon " style={{ display: isOpen ? 'block' : 'none' }}>{item.icon}</div>
                                 <div onClick={toggle} style={{ display: isOpen ? 'block' : 'none' }} className="link_text">{item.mane}</div>
                             </NavLink>
                         ))

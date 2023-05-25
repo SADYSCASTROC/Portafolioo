@@ -13,10 +13,10 @@ body {
   --hoverLinks: rgb(225, 179, 219);
   --backgroundText: rgba(55, 5, 49, 0.201);
   --colorText: rgba(44, 3, 39, 0.844);
-
-
 }
-
+.contNav{
+  position: relative;
+}
 .containe {
   display: flex;
   overflow: hidden;
@@ -24,6 +24,8 @@ body {
 
 .butonMenu {
   margin-bottom: 160px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 main {
@@ -38,7 +40,6 @@ main {
   height: 100vh;
   width: 300px;
 }
-
 .top_section {
   display: flex;
   align-items: center;
@@ -47,29 +48,42 @@ main {
 
 .logo {
   font-size: 30px;
+  width: 100%;
 }
 
 .fotoImg {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-left: 60px;
 }
 
 .descripLogo {
-  font-size: 15px;
+  font-size: 15px; 
+   margin-left: 60px;
+
+}
+.contButon{
+  background-color:var(--iconsColor);
+  height: 60px;
+  width: 60px;
+  margin-bottom: 100px;
+  border-radius: 50%;
 }
 
 .bars {
   z-index: 1 !important;
   width: 200px;
   display: flex;
+  justify-content: end;
   font-size: 25px;
   margin-left: 50px;
   transition: all 0.5s;
+  
 }
 
 .contLinks {
-  margin-top: -10px;
+  margin-top: 20px;
 }
 
 .link {
@@ -78,6 +92,8 @@ main {
   padding: 10px 15px;
   gap: 15px;
   transition: all 0.5s;
+  align-items: center;
+  justify-content: center;
 }
 
 .link:hover {
@@ -88,11 +104,20 @@ main {
 
 .active {
   color: #fff;
+  margin-top: 10px;
+}
+
+.icon{
+  width: 8%;
+}
+.link_text{
+  width: 40%;
 }
 
 .icon,
-.llink_text {
+.link_text {
   font-size: 20px;
+
 }
 
 footer {
@@ -225,6 +250,17 @@ justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 15px;
+}
+
+.btn {
+  border: 3px solid var(--hoverLinks);
+  color: var(--colorText);
+}
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: 5px solid var(--hoverLinks);
+  background-color: var(--backgroundText);
 }
 
 .volver{
@@ -243,8 +279,11 @@ top:20px;
 
   .butonMenu {
     display: none;
+    
   }
-
+  .contButon{
+    display: none;
+  }
   .logo {
     display: block !important;
   }
@@ -255,6 +294,10 @@ top:20px;
     border-radius: 50%;
     margin-left: 15px;
 
+  }
+
+  .icon{
+    display: block !important;
   }
 
   .descripLogo {
