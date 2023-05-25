@@ -42,34 +42,99 @@ export const tecnologias = [
 
 export const proyectos = [
     {
-        name:'SOCIALnEKWORD',
-        descri:'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
-        tecnologias:'HTML, CSS, REACT, BOOSTRAP',
-    },
-    {
-        name:'MD-LIKS',
-        descri:'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
-        tecnologias:'HTML, CSS, REACT, BOOSTRAP',
+        name: 'SOCIALnEKWORD',
+        descri: 'Este proyecto cuenta con unas descrpicones muy bonitas sobre como se ha realizado, tieme una parte administrativa donde puedes hacer un crud.',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
 
+        ]
     },
     {
-        name:'JOURNAL-APP',
-        descri:'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
-        tecnologias:'HTML, CSS, REACT, BOOSTRAP',
+        name: 'MD-LIKS',
+        descri: 'Este proyecto cuenta con unas descrpicones muy bonitas sobre como se ha realizado, tieme una parte administrativa donde puedes hacer un crud.',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
     },
     {
-        name:'ECOMERCE',
-        descri:'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
-        tecnologias:'HTML, CSS, REACT, BOOSTRAP',
+        name: 'JOURNAL-APP',
+        descri: 'Este proyecto cuenta con unas descrpicones muy bonitas sobre como se ha realizado, tieme una parte administrativa donde puedes hacer un crud.',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
     },
     {
-        name:'GIFIATEM',
-        descri:'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
-        tecnologias:'HTML, CSS, REACT, BOOSTRAP',
+        name: 'ECOMERCE',
+        descri: 'Este proyecto cuenta con unas descrpicones muy bonitas sobre como se ha realizado, tieme una parte administrativa donde puedes hacer un crud.',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
     },
     {
-        name:'GIFIATEM',
-        descri:'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
-        tecnologias:'HTML, CSS, REACT, BOOSTRAP',
+        name: 'GIFIATEM',
+        descri: 'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
+    },
+    {
+        name: 'GIFIATEM',
+        descri: 'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
+    },
+    {
+        name: 'GIFIATEM',
+        descri: 'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
+    },
+    {
+        name: 'GIFIATEM',
+        descri: 'jagshdgshdfshdsvcgxzdfg faesccsgdbgfw gdsfgdhffdgsgrrwvcwccw gsfs',
+        tecnologias: 'HTML, CSS, REACT, BOOSTRAP',
+        img: [
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR96MwYjdcjbhoB50JfaZ0tGnAiuqWan29gVA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2IWwPcbBAQRlrXXHop7JA1FeZx-mbz1M-NbCYR9B7MTradIBaSZ3519zUFZcWSIqDCn4&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBzeeAY_lhX1qcPxvKldDNbPRe3O_1dVIDRkc5CH9KqCJZcuWwYnpNCF3ijZFI_mggjA&usqp=CAU',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIQuOyB1UpmpbfmyuNMWz-BVikUniEAVrwag&usqp=CAU',
+
+        ]
     },
 ]

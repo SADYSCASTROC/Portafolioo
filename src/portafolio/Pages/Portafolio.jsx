@@ -1,6 +1,5 @@
 import { proyectos } from "../../data"
 import VisibilityIcon from '@mui/icons-material/Visibility';
-import { Modal } from "../components/Modal";
 import { Link } from "react-router-dom";
 
 export const Portafolio = () => {
@@ -22,7 +21,6 @@ export const Portafolio = () => {
           </div>
           ))
         }
-{/* <Modal/> */}
       </div>
 
     </section>
