@@ -27,8 +27,9 @@ export const SobreMi = () => {
   <div className='containerImgTecnoligias'>
     {
       tecnologias.map(index =>(
-        <div key={index.name} className='divImg '>
+        <div key={index.id} className='divImg '>
           <img src={index.img} alt="" className='imgTecnologias'/>
+          <p>{index.name}</p>
         </div>
       ))
     }

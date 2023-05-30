@@ -9,6 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import { FaBars } from 'react-icons/fa';
 import fotoImg from '../assets/fotoImg.jpeg'
+import { ButonMenu } from './ButonMenu';
 
 
 export const Navbar = ({ children }) => {
@@ -52,9 +53,11 @@ export const Navbar = ({ children }) => {
 
                     <div style={{ marginLeft: isOpen ? '50px' : '0px' }} className="bars">
                         <div className='contButon'>
-                        <FaBars onClick={toggle} className='butonMenu' />
+                        {/* <FaBars onClick={toggle} className='butonMenu' /> */}
+                        <ButonMenu toggle={toggle} isOpen={isOpen}/>
                         </div>
                     </div>
+
                 </div>
                 <div className='contLinks'>
                     {
@@ -67,9 +70,9 @@ export const Navbar = ({ children }) => {
                     }
                 </div>
                 <footer className='d-flex justify-content-center align-items-end ' style={{ display: isOpen ? 'block' : 'none' }}>
-                    <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons' > <a href="https://www.linkedin.com/in/sadys-castro/" target="_blank"><LinkedInIcon /></a> </div>
-                    <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="https://github.com/SADYSCASTROC" target="_blank"><GitHubIcon /></a></div>
-                    <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="mailto:sadyscastro@gmail.com" target="_blank"><EmailIcon /></a></div>
+                    <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons' > <a href="https://www.linkedin.com/in/sadys-castro/" target="_blank"><LinkedInIcon className='iconsredes' /></a> </div>
+                    <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="https://github.com/SADYSCASTROC" target="_blank"><GitHubIcon className='iconsredes' /></a></div>
+                    <div  style={{ display: isOpen ? 'block' : 'none' }} className='footrConteIcons'> <a href="mailto:sadyscastro@gmail.com" target="_blank"><EmailIcon className='iconsredes' /></a></div>
                 </footer>
             </div>
             <main  className='main'>{children}</main>

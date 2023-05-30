@@ -14,9 +14,11 @@ body {
   --backgroundText: rgba(55, 5, 49, 0.201);
   --colorText: rgba(44, 3, 39, 0.844);
 }
-.contNav{
+
+.contNav {
   position: relative;
 }
+
 .containe {
   display: flex;
   overflow: hidden;
@@ -40,6 +42,7 @@ main {
   height: 100vh;
   width: 300px;
 }
+
 .top_section {
   display: flex;
   align-items: center;
@@ -59,14 +62,15 @@ main {
 }
 
 .descripLogo {
-  font-size: 15px; 
-   margin-left: 60px;
+  font-size: 15px;
+  margin-left: 60px;
 
 }
-.contButon{
-  background-color:var(--iconsColor);
-  height: 60px;
-  width: 60px;
+
+.contButon {
+  background-color: var(--iconsColor);
+  height: 55px;
+  width: 55px;
   margin-bottom: 100px;
   border-radius: 50%;
 }
@@ -79,7 +83,7 @@ main {
   font-size: 25px;
   margin-left: 50px;
   transition: all 0.5s;
-  
+
 }
 
 .contLinks {
@@ -107,10 +111,11 @@ main {
   margin-top: 10px;
 }
 
-.icon{
+.icon {
   width: 8%;
 }
-.link_text{
+
+.link_text {
   width: 40%;
 }
 
@@ -125,15 +130,19 @@ footer {
   height: 130px;
   gap: 25px;
 }
+.iconsredes{
+  margin-top: 15px;
+}
 
 .footrConteIcons {
   margin-top: 0px;
   text-align: center;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   border: 3px solid rgb(80, 80, 80);
   border-radius: 50%;
   background-color: rgb(14, 13, 13);
+  font-size: 30%;
 }
 
 .footrConteIcons:hover {
@@ -183,7 +192,7 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 23ch;
+  width: 20ch;
   background-color: var(--backgroundText);
 
   animation: typing 3s steps(15),
@@ -204,14 +213,16 @@ a:hover {
 }
 
 /*Componente sobre mi*/
-h2{
+h2 {
   color: var(--iconsColor);
 }
-.conteTextoSObreMi{
-display: flex;
-justify-content: center;
+
+.conteTextoSObreMi {
+  display: flex;
+  justify-content: center;
 }
-.containerSobrMI{
+
+.containerSobrMI {
   text-align: center;
   margin: auto;
 }
@@ -231,6 +242,7 @@ justify-content: center;
   width: 70%;
 
 }
+
 .imgTecnologias:hover {
   width: 75%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -239,36 +251,68 @@ justify-content: center;
 
 /*Portafolio*/
 
-.containerPortafolio{
+
+.containerPortafolio {
   padding-top: 18px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
 }
-.containerCardProyects{
+
+.containerCardProyects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 15px;
 }
+.cardProyecto:hover{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.cardProyecto:hover .title {
+  color: var(--iconsColor);
+}
 
 .btn {
   border: 3px solid var(--hoverLinks);
   color: var(--colorText);
 }
+
 .btn:hover {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   border: 5px solid var(--hoverLinks);
   background-color: var(--backgroundText);
 }
 
-.volver{
-position:absolute;
-right:18px;
-top:20px;
+.volver {
+  position: absolute;
+  right: 18px;
+  top: 20px;
 }
 
+/*certificado*/
+
+.containerCertificados {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.imgCertificadoConte {
+  width: 100%;
+  height: 55%;
+  border: 2px solid var(--backgroundText);
+}
+
+.imgCerticate {
+  width: 100%;
+  height: 300px;
+
+}
 
 
 
@@ -279,13 +323,16 @@ top:20px;
 
   .butonMenu {
     display: none;
-    
+
   }
-  .contButon{
+
+  .contButon {
     display: none;
   }
+
   .logo {
     display: block !important;
+    
   }
 
   .fotoImg {
@@ -296,7 +343,7 @@ top:20px;
 
   }
 
-  .icon{
+  .icon {
     display: block !important;
   }
 
@@ -317,14 +364,18 @@ top:20px;
   }
 
   footer {
-    margin-top: 150px;
+    margin-top: 70px;
     height: 90px;
   }
 
   .footrConteIcons {
     display: block !important;
+    width: 50px;
+    height: 50px;  
   }
-
+  .iconsredes{
+    margin-top: 10px;
+  }
 
   /*componente inicio*/
 
@@ -356,9 +407,10 @@ top:20px;
 
   /*Componente sobre mi*/
 
-  .textSobreMi{
-  width: 70%;
+  .textSobreMi {
+    width: 70%;
   }
+
   .containerImgTecnoligias {
     padding: 5px 50px;
   }
@@ -375,14 +427,72 @@ top:20px;
 
   /*portafolio*/
 
-  .containerPortafolio{
+  .containerPortafolio {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
   }
-  .containerCardProyects{
+
+  .containerCardProyects {
     gap: 20px;
     align-items: center;
     justify-content: center;
+  }
+
+
+
+  /*certificado*/
+
+  .containerCertificados {
+    margin-top: 50px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .imgCertificadoConte {
+    width: 95%;
+    height: 50%;
+  }
+
+  .imgCerticate {
+    width: 90%;
+    height: 300px;
+
+  }
+
+}
+
+@media(min-width: 999px){
+  footer {
+    margin-top: 150px;
+    height: 90px;
+  }
+
+  .footrConteIcons {
+    display: block !important;
+  }
+
+  
+  .containerCertificados {
+    margin-top: 50px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .imgCertificadoConte {
+    width: 45%;
+    height: 50%;
+  }
+
+  .imgCerticate {
+    width: 90%;
+    height: 300px;
+
   }
 }

@@ -6,7 +6,7 @@ export const Inicio = () => {
       <img src={imgIni} alt="" className='imgInicio  animate__animated animate__backInDown' />
       <div className='conteTExtInicio'> 
       <p className='nombre'>Sadys Castro</p>     
-        <span className='textInicio'>Front - End Developer ! </span>
+        <span className='textInicio'>Front - End Developer! </span>
       </div>
     </div>
   )

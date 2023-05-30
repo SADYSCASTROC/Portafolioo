@@ -11,9 +11,9 @@ export const Portafolio = () => {
       <div className="containerCardProyects">
         {
           proyectos.map(item =>(
-            <div className="card" style={{width: '18rem', marginTop:'25px'}}>
+            <div className="card cardProyecto" style={{width: '18rem', marginTop:'25px'}}>
             <div className="card-body">
-              <h5 className="card-title">{item.name}</h5>
+              <h5 className="card-title title">{item.name}</h5>
               <p className="card-text">{item.descri}</p>
               <p className="card-text">{item.tecnologias}</p>
               <Link to={`/demoProyectos/${item.name}`} className="btn ">Demo <VisibilityIcon/> </Link> 

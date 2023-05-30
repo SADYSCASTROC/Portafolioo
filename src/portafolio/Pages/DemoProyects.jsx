@@ -48,15 +48,18 @@ export const DemoProyects = () => {
                         {
                             pro.img.map(index => (
                                 <Box>
-                                    <Imge src={index} alt="" />
+                                    <Imge src={index} className="img-fluid imgDemoProyec" alt="..." />
                                 </Box>
+
                             ))
                         }
                     </Slider>
+                    <br />
+                    <hr />
+
+                    <Parrafo href={pro.link} Target="_blank" className="card-text">Ver</Parrafo>
                 </Carrusel>
-
-
-                <Parrafo className="card-text">{pro.descri}</Parrafo>
+                <Nota>{pro.noat}</Nota>
             </ContenedorModal>
         </Overlay>
     )
@@ -77,19 +80,24 @@ justify-content:center;
 `
 const ContenedorModal = styled.div`
 width: 100%;
-height:75%;
+height:80%;
 background:#fff;
 position: relative;
 border-radius:5px;
 box-shadow: rgba(100,100,111,8.2) 0px 7px 29px 8px;
 padding:10px;
 @media(min-width: 769px){
-    width: 70%;
-    height:90%;
+    width: 75%;
+    height:80%;
+}
+@media(min-width: 999px){
+    width: 60%;
+    height:550px;
 }
 `
 const EncabezadoModal = styled.div`
 display: flex;
+margin-left: 15px;
 align-items: center;
 justify-content: space-between;
 margin-bottom:20px;
@@ -111,41 +119,60 @@ top:5px;
 `
 
 const Carrusel = styled.div`
-height:250px;
+height:86%;
+
+
+@media(min-width: 769px){
+    height:400px;
+}
 `
 
 const Box = styled.div`
-height:225px;
+height:80%px;
 width: 100%;
+padding-left: 10px;
+
 @media(min-width: 769px){
     padding:10px;
     width: 80%;
-    height:350px;
-    padding-left: 35px;
-    padding-right: 35px;
-    
+    height:315px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
+
+
 
 `
 
 const Imge = styled.img`
 
-height:250px;
-width: 100%;
+height:355px;
+width: 95%;
 @media(min-width: 769px){
-    width: 100%;
-    height:100%;
+    width: 90%;
+    height:300px;
+    padding-left:30px;
+}
+@media(min-width: 999px){
+    width: 80%;
+    height:390px;
+    padding-left:150px;
 }
 `
-const Parrafo = styled.p`
-height:100px;
-margin-top: 15px;
-text-align: center;
-padding-left: 5px;
-padding-right: 5px;
-overflow-y: scroll;
-border: 3px solid rgb(221, 221, 221);
+const Parrafo = styled.a`
+color:black;
+margin-left: 50%;
+margin-top: 55px;
+
 @media(min-width: 769px){
-    margin-top: 150px;
+    margin-left: 50%;
+    margin-top: -10px;
 }
+
+`
+const Nota = styled.p`
+color:black;
+background:#fff;
+
 `
