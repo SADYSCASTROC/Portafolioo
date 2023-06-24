@@ -58,8 +58,6 @@ export const tecnologias = [
 
 
 export const proyectos = [
-
-
     {
         name: 'Social-network',
         descri: '"Explore" es una apasionante red social creada para aquellos que aman viajar y explorar el mundo. Es el lugar ideal para compartir tus experiencias, descubrimientos y recomendaciones sobre lugares visitados o interesantes por visitar.',
@@ -134,5 +132,6 @@ export const certificados = [
         'https://i.ibb.co/6RY4LGd/Captura-de-pantalla-2022-12-16-120842.png',
         'https://i.ibb.co/Cz11Y1z/9542001872213-CC1102234308-C-1.jpg',
         'https://i.ibb.co/1mXqkK7/Captura-de-pantalla-2023-05-30-102351.png',
+        'https://udemy-certificate.s3.amazonaws.com/image/UC-3041988f-0931-4996-90e4-9048ee062275.jpg'
     
 ]
